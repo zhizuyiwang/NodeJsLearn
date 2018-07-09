@@ -3,6 +3,7 @@
 ### Example user template
 
 # IntelliJ project files
+/day02/node_modules
 .idea
 *.iml
 out

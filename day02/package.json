@@ -1,0 +1,23 @@
+{
+  "name": "day02",
+  "version": "1.0.0",
+  "description": "哈哈",
+  "main": "yes",
+  "dependencies": {
+    "express": "^4.16.3",
+    "silly-datetime": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "time"
+  ],
+  "author": "hsf",
+  "license": "ISC"
+}
