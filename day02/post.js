@@ -12,8 +12,16 @@ http.createServer(function (req,res) {
             console.log(chunk)
         })
         req.addListener("end",function () {
-            console.log(allData.toString())
+            var dataString = allData.toString()
+            console.log(dataString)
+            //将dataString转为一个对象
+            var dataObj = queryString.parse(dataString)
+            console.log(dataObj)
+            console.log(dataObj.name)
+            console.log(dataObj.sex)
+            console.log(dataObj.hobby)
             res.end("success")
+
         })
     }
 }).listen(80,"127.0.0.1")
