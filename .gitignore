@@ -4,6 +4,7 @@
 
 # IntelliJ project files
 /day02/node_modules
+/day03/node_modules
 .idea
 *.iml
 out
